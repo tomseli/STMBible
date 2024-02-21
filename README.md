@@ -15,11 +15,11 @@ starts with the same number as in which addition it's used.
 # Table of Contents
 
 ## System Core
-[001-Pulsewidth Measurement](001-Pulsewidth%20Measurement.md)
 
 ## Analog
 
 ## Timers
+[001-Pulsewidth Measurement](001-Pulsewidth%20Measurement.md)
 
 ## Connectivity
 [002-Printf to UART](002-Printf%20to%20UART.md)
