@@ -48,17 +48,14 @@ void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
 	{
 		if(first_capture)
 		{
-			first_cnt =\
-				HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_2);
+			first_cnt = HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_2);
 			first_capture = 0;
 		}
 		else
 		{
-			second_cnt =\ 
-				HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_2);
+			second_cnt = HAL_TIM_ReadCapturedValue(htim, TIM_CHANNEL_2);
 			first_capture = 1;
-			printf("first: %lu\nsecond: %lu\ndifference: %lu\n",\
-				first_cnt, second_cnt, second_cnt-first_cnt);
+			printf("first: %lu\nsecond: %lu\ndifference: %lu\n", first_cnt, second_cnt, second_cnt-first_cnt);
 		}
 	}
 }
