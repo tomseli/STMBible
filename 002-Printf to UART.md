@@ -36,12 +36,12 @@ The pins that are connected to the ST-Link RX and TX have to be used. In this
 case the options were LPUART1 and UART2 (not shown in the image). In the example
 I chose for UART2. 
 
-![Schematic](img\002-Schematic.png)
+![Schematic](img/002-Schematic.png)
 
 ### Mode and configuration
-![Mode](img\002-Mode.png)
+![Mode](img/002-Mode.png)
 
 ### Parameter Settings
-![Parameters](img\002-Parameters.png)
+![Parameters](img/002-Parameters.png)
 
 The baudrate can be adjusted to preference. The rest may be left at default.
