@@ -9,7 +9,7 @@ contents. The format for the title is as follows.
 
 `XXX-A functional title.md`
 
-Images referenced in an addition can be stored in `img\`. The title of the image
+Images referenced in an addition can be stored in `img/`. The title of the image
 starts with the same number as in which addition it's used. 
 
 # Table of Contents
