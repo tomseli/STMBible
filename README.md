@@ -22,6 +22,7 @@ starts with the same number as in which addition it's used.
 ## Timers
 
 ## Connectivity
+[002-Printf to UART](002-Printf%20to%20UART.md)
 
 ## Multimedia
 
