@@ -6,12 +6,12 @@ Take a General Purpose Timer or Advanced Timer (preferably 32 bit). In the
 example a 32-bit General Purpose Timer is used.
 
 ### Timer Mode
-![Timer Mode](img\001-Timer_mode.png)
+![Timer Mode](img/001-Timer_mode.png)
 
 Any of the channels will do. Multiple can be used at once.
 
 ### Parameter settings
-![Parameter settings](img\001-Parameter_settings.png)
+![Parameter settings](img/001-Parameter_settings.png)
 
 Set the prescaler to some known value. In this case I want to count
 microseconds, so I set the clock to 1 MHz (check if your clock is on APB1 or
@@ -21,7 +21,7 @@ Set the input capture channel to both edges. This clock will now trigger an
 interrupt on a rising and a falling ege.
 
 ### NVIC Settings
-![NVIC Settings](img\001-NVIC_settings.png)
+![NVIC Settings](img/001-NVIC_settings.png)
 
 Global interrupts should be enabled.
 
@@ -67,4 +67,4 @@ A simple callback to count the amount of microseconds between a rising and a
 falling edge.
 
 > [!NOTE]
-> Note that a timer overflow is not taken into account.
+> A timer overflow is not taken into account in the above snippet.
